@@ -1,0 +1,94 @@
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		@font-face{
+			font-family: "Internet-Friends";
+			src: url("font/Internet-Friends.ttf");
+			}
+
+		@font-face{
+			font-family: "Soulwave";
+			src: url("font/Soulwave.ttf");
+
+		}
+
+		@font-face{
+			font-family: "Amanise";
+			src: url("font/Amanise.ttf");
+		}
+
+		@font-face{
+			font-family: "Handwriting";
+			src: url("font/Handwriting.ttf")
+		}
+
+		#coverphoto{
+			background-size: cover;
+			background-position: center;
+		}
+		
+		#nav-wrapper a {
+			color: white;
+			text-decoration: none;
+			font-size: 20pt;
+			display: block;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			text-align: center;
+			font-variant: small-caps;
+			font-family: "Internet-Friends", fantasy;
+		}
+
+		#nav-wrapper ul{
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		#nav-wrapper li{
+			text-align: center;
+			position: relative;
+			float: left;
+			width: 300px;
+
+		}
+		#nav-wrapper li:hover > ul {
+			display: block;
+		}
+		
+		#nav-wrapper ul ul {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			left: 0px;
+			display: none;
+		}
+		#navbar a:hover, #navbar .active{
+			color: white;
+			font-weight: bold;
+			border: 1px solid white;
+		}
+		.clearfloat {
+			clear: both;
+		}
+		#nav-wrapper{
+			width: 1200px;
+			margin-right: auto;
+			margin-left: auto;
+
+		}
+
+		#footer{
+			height: 25px;
+			font-family: soulwave, cursive;
+			text-align: center;
+			font-weight: bold; 
+			margin: 0px;
+			padding: 0px;
+
+		}
+	
+
+		

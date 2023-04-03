@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jessica Woon | Extracurriculars</title>
+	<meta name="description" content="Jessica Woon's extracurriculars from her Portfolio website. Some of her favorite extracurriculars include Science Outreach, American Women's Medical Association, and Alpha Phi Omega.">
+	<link rel="stylesheet" href="finalproject.css">
+	<style>
+		#coverphoto{
+			background-image: url('images/extracurricular-header.png');
+			height: 450px;
+		}
+		#title h1{
+			text-align: center;
+			font-family: "Soulwave", cursive;
+			color: white;
+			text-shadow: 5px 5px 10px #000;
+			font-size: 60pt;
+			padding-top: 140px;
+			margin-bottom: 0px;
+		}
+
+		#title p{
+			text-align: center;
+			color: white;
+			font-family: "Handwriting", cursive;
+			font-size: 14pt;
+			margin: 0px;
+
+		}
+
+		.gradient-multiline {
+		  position: relative;
+		  width: 600px;
+		  margin: 40px auto;
+		  text-align: center;
+		  line-height: 1.5em;
+		  font-family: "internet-friends", cursive;
+		  font-size: 25pt;
+		  margin-top: 0px;
+		  margin-bottom: 0px;
+
+		}
+		  
+		.gradient-multiline span {
+		  color: #fff;
+		  background-color: #000;
+		  padding: 0.225rem 0.5rem;
+		  box-decoration-break: clone;
+		}
+
+		@supports(mix-blend-mode: lighten) {
+		  .gradient-multiline::after {
+		    position: absolute;
+		    content: '';
+		    top: 0;
+		    right: 0;
+		    bottom: 0;
+		    left: 0;
+		    pointer-events: none;
+		    background: linear-gradient(60deg, #31a2b9, #31307c);
+		    mix-blend-mode: lighten;
+		  }
+		 
+		#amwa-section{
+			width: 1400px;
+		 	text-align: center;
+		 	margin-right: auto;
+		 	margin-left: auto;
+		}
+		}
+		#amwa-photo{
+			overflow: hidden;
+			width: 600px;
+			height: auto;
+			float: left;
+			margin:0px 10px 0px 70px;
+		}
+		#amwaboard{
+			width: 100%;
+			height:auto;
+		}
+		#amwa-description{
+			float: left;
+			background-color: #fffcf5;
+			width: 680px;
+			border: 2px solid black;
+			box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+		}
+
+		#description p{
+			font-family: "Handwriting", san-serif, cursive;
+			text-align: center;
+			font-size: 12.5pt;
+			margin-right: 30px;
+			margin-left: 30px;
+			margin-top: 10px;
+			background-color: #fffcf5;
+		}
+
+		#amwa-events img{
+			width: 200px;
+			height: auto;
+			margin: 20px 10px 0px;
+			border: 2px solid black;
+		}
+		#amwa-events{
+			margin-left: 160px;
+		}
+
+		.img-container {
+			opacity: 0.5;
+			float: left;
+		}
+		.img-container:hover {
+			opacity: 1;
+		}
+		.img-container p {
+			visibility: hidden;
+			margin: 0px;
+			text-align: center;
+			font-family: "Handwriting", san-serif, cursive;
+			font-size: 12.5pt;
+			font-weight: bold;
+		}
+		.img-container:hover p {
+			visibility: visible;
+
+		}
+		.scout-photo-containter img{
+			width: 50%;
+			height: auto;
+			text-align: center;
+			float: left;
+
+		}
+		#scout-photo{
+			width: 1275px;
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		#scout-description{
+			width: 1200px;
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+			border: 2px solid black;
+			box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+			background-color: #fffcf5;
+		}
+		#scout-description p{
+			font-family: "Handwriting", san-serif, cursive;
+			text-align: center;
+			font-size: 13pt;
+			margin-right: 30px;
+			margin-left: 30px;
+			margin-top: 10px;
+		}
+		#apo1{
+			width: 702px;
+			float: left;
+			margin: 0px 25px;
+		}
+		#apo2{
+	
+			width: 245px;
+			float: left;
+		}
+		#apo3{
+			width: 253px;
+			float: left;
+		}
+		#apo-photos img{
+			width: 100%;
+			height: auto;
+			margin: 0px 20px;
+			border: 2px solid black;
+		}
+		#apo-photos{
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+			width: 1275px;
+		}
+		#apo-description{
+			width: 1200px;
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+			border: 2px solid black;
+			box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+			font-family: "Handwriting", san-serif, cursive;
+			font-size: 13pt;
+			background-color: #fffcf5;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+
+		<div id="coverphoto">
+
+			<div id="navbar">
+
+				<div id="nav-wrapper">
+					<ul>
+						<li><a href="homepage.html">Home</a>
+							<ul>
+							<li><a href="homepage.html#about-me">About Me</a></li>
+							<li><a href="homepage.html#resume">Resume</a></li>
+						</ul>
+						</li>
+						<li><a class="active" href="">Extracurriculars</a>
+						<ul>
+							<li><a href="extracurriculars.html#AMWA">American Medical Women's Association</a></li>
+							<li><a href="extracurriculars.html#Scout">Science Outreach</a></li>
+							<li><a href="extracurriculars.html#APO">Alpha Phi Omega</a></li>
+						</ul>
+						</li>
+						<li><a href="hobbies.html">Hobbies</a>
+						<ul>
+							<li><a href="hobbies.html#Arts">Arts</a></li>
+							<li><a href="hobbies.html#acai-bowls">Acai Bowls</a></li>
+							<li><a href="hobbies.html#website-design">Website Design</a></li>
+						</ul>
+						</li>
+						<li><a href="homepage.html#contact-me">Contact Me</a></li>
+					</ul>
+					<div class="clearfloat"></div>
+				</div>
+			</div>
+
+			<div id="title">
+					<h1>Extracurriculars</h1>
+					<p>American Women's Medical Association, Science Outreach, Alpha Phi Omega</p>
+			</div>
+		</div>
+<br><br>
+
+	<div id="AMWA">
+		<h2 class="gradient-multiline"><span>~American Women's Medical Association~</span></h2>
+		
+<br>
+	<div id="amwa-section">
+		<div id="amwa-photo">
+			<img id=amwaboard src="images/amwa.png" alt="photo of AMWA board">
+		</div>
+
+		<div id="amwa-description">
+			<div id="description">
+				<p>This semester in college I joined the board for the Pre-Medical Chapter of the American Women's Medical Association (AMWA) at USC as an Events Committee Representative. Our club's mission is to foster a strong community of female pre-medical students and support them on their journey to becoming future healthcare practioner through various professional, academic, social, philanthropy, and volunteering events. Some of the events that my Event Committee Board have came up with this semester include a "Moms in Medicine" panel, Mask Making Event Social, Keck Medical Student panel, Linkedin Workshop, Stress Management Workshop, Advisement Workshop, and A discussion regarding disparities within healthcare in collaboration with African Americans in Health at USC (some of the event flyers below!). In collaboration with other Committees on the Board, AMWA has worked with Cards For Courage to make cards for Health Care Workers amidst COVID-19 and fundraised for Making Strides Against Breast Cancer®, Armenian Fund, Medics in Armenia, and Black Lives Matter. I can't wait for the many more events to plan in the upcoming semester with my lovely ladies in STEM.</p>
+			</div>
+		</div>
+
+		<div class="clearfloat"></div>
+	</div>
+		<div id="amwa-events">
+			<div class="img-container">
+				<img src="images/amwa1.jpg" alt="COVID-19 Frontline Event">
+				<p>COVID-19 Frontline Event</p>
+			</div>
+			<div class="img-container">
+				<img src="images/amwa2.jpg" alt="Breast Cancer Walk Event">
+				<p>Breast Cancer Walk Event</p>
+			</div>
+			<div class="img-container">
+				<img src="images/amwa3.jpg" alt="Mask Making Event">
+				<p>Mask Making Event</p>
+			</div>
+			<div class="img-container">
+				<img src="images/amwa4.jpg" alt="Medical Student Panel">
+				<p>Medical Student Panel</p>
+			</div>
+			<div class="img-container">
+				<img  src="images/amwa5.jpg" alt="Moms in Medicine">
+				<p>Moms in Medicine</p>
+			</div>
+				<div class="clearfloat"></div>
+		</div>
+	</div>
+
+<br><hr><br>
+
+		<div id="Scout">
+			<h2 class="gradient-multiline"><span>~USC Science Outreach~</span></h2>
+		</div>
+<br>
+		<div id="scout-photo">
+			<div class="scout-photo-containter">
+				<img src="images/scout1.png" alt="photo of some of the Scout members during Halloween">
+			</div>
+			<div class="scout-photo-containter">
+				<img src="images/scout2.png" alt="photo of some of the Scout members during Halloween cont.">
+			</div>
+			<div class="clearfloat"></div>
+		</div>
+<br>
+		<div id="scout-description">
+				<p>For the past 4 semesters at USC, I have been a memember of Science Outreach (SCout). SCout has been one of my favorite clubs to participate in because we get to do science experiments with second and third graders once a week with a small group of around eight other USC SCout members. Some of the experiments we do with the students include making oobleck, elephant toothpaste, strawberry DNA and lava lamps, and also doing experiments that involve dry ice, invisible marbles, and seeds. The students are always excited to do these fun experiments, which makes me happy to know that I can spark an excitement for science, exploration, and learning in the classroom. Although this semester has switched to online, our team was still able to adapt and be able to teach the students the same experiments and get them excited for each lesson. Hopefully the efforts I put into the students translates into inspiring them to become future mini scientists! Also, above is a picture of some of the SCout members dressed up on Halloween this semester!
+				</p>
+		</div>
+<br><br><hr><br>
+
+		<div id="APO">
+			<h2 class="gradient-multiline"><span>~Alpha Phi Omega~</span></h2>
+<br>
+			<div id="apo-photos">
+				<div id="apo2">
+					<img src="images/apo2.jpg" alt="APO Rush Photo">
+				</div>
+				<div id="apo1">
+					<img src="images/apo1.jpg" alt="APO Pledge Class">
+				</div>
+				<div id="apo3">
+					<img src="images/apo3.jpg" alt="APO Family">
+				</div>
+				<div class="clearfloat"></div>
+			</div>
+<br>
+
+	<div id="apo-description">
+				<p>Alpha Phi Omega (APO) is a National Service Organization at USC where I found some of my closest friends in colleges and have shared the most memorable memories with. In APO, we bond through doing service events together such as at the Los Angeles Food Bank, Watt's Empowerment Center, Hollywood Food Coalition, and Share a Meal, as well as through other fun social events such as going on food adventures, cookie decorating, and exercising. This semester, I became the Vice President of Communications for APO, which has allowed me to take on a more active role in APO and see the administrative side behind planning events and running the organization. My role consisted of ensuring constant communication between the member and the executive board and running APO's social media. Everyone I have met in APO have all been super friendly, approachable, and fun, making it always a blast whenever I get a chance to hang out with them. Being in APO has made USC's big campus feel a lot smaller because I always see a friendly face on campus wherever I go, and I can't wait to have more memories with them in the future, even beyond college as life long friends.  
+				</p>
+		</div>
+	</div>
+<br><hr>
+		<div id="footer">
+			<h2>Jessica Woon | University of Southern California | 2020</h2>
+		</div>
+<br>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
